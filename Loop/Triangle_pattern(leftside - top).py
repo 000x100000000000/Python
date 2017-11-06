@@ -1,13 +1,14 @@
+# This program displays a trinagle pattern.
 base_size = 8
 
-start = 1
+star_point = 1
 
 for x in range(base_size, 0, -1):
     for y in range(x-1):
         print(" ", end='')
 
-    for z in range(0, start):
+    for z in range(0, star_point):
         print("*", end='')
 
     print()
-    start += 1
+    star_point += 1

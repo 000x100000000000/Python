@@ -1,6 +1,6 @@
 # This program displays a triangle pattern.
 base_size = 8
-star_point = 8
+star_point = base_size
 
 for r in range(base_size):
     for c in range(r):
