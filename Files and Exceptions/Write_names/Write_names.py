@@ -1,3 +1,9 @@
+# Date: 29-08-2019
+# Name: WenLong Wu
+# Python programming pratice
+
+# write names
+
 # This program gets three names from the user
 # and writes them to a file.
 
@@ -9,16 +15,17 @@ def main():
     name3 = input("Friend #3: ")
 
     # Open a file named friends.txt.
-    myfile = open("friends.txt", 'w')
+    myfile = open('friends.txt', 'w')
 
     # Write the names to the file.
-    myfile.write(name1 + "\n")
-    myfile.write(name2 + "\n")
-    myfile.write(name3 + "\n")
+    myfile.write(name1 + '\n')
+    myfile.write(name2 + '\n')
+    myfile.write(name3 + '\n')
 
     # Close the file.
     myfile.close()
-    print("The names were written to friends,txt.")
+    print("The names were written to friends.txt.")
 
-# Call the main function
+# Call the main function.
 main()
+
