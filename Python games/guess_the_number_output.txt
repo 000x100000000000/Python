@@ -1,0 +1,15 @@
+Hello! What is your name?
+WenLong Wu
+Well, WenLong Wu , I am thinking of a number between 1 and 100.
+You win if you guessed the number within 6 times.
+Take a guess.
+50
+1 -------- 50
+25
+1 -------- 25
+12
+12 -------- 25
+17
+17 -------- 25
+23
+You win within 5 times.
