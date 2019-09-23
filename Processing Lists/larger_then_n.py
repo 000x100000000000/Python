@@ -11,8 +11,9 @@
 
 def greater_then_n(a_list, n):
 
-    for x in a
-    
+    for x in a_list:
+        if x > n:
+            print(x)
 
 def main():
 
@@ -20,6 +21,6 @@ def main():
 
     number = int(input("Enter 1 - 99: "))
 
-    
+    greater_then_n(number_list, number)    
 
 main()
